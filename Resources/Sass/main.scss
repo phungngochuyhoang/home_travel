@@ -1,0 +1,17 @@
+// set variable and font text for website
+@import './Basic/var';
+// animation for website
+@import './Abstracts/animation';
+// set body (width, height) 
+@import './Basic/body';
+// component recycling
+@import './Components/button';
+// layout for website 
+@import './Layout/header';
+@import './Layout/_content';
+@import './Layout/_footer';
+// page for website 
+@import './Pages/content-home'; 
+
+
+
