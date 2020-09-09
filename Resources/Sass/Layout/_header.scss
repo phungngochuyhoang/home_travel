@@ -1,6 +1,5 @@
 // header
-.header {
-    height: auto;
+.header-home {
     .container-header .row:nth-child(1) {
         position: fixed;
         top: 0;
@@ -11,6 +10,9 @@
     .container-header .row:nth-child(2) {
        margin-top: 80px;
     }
+}
+.header {
+    height: auto;
     .container-header .row {
         .col-xl-3,
         .col-xl-9 {
@@ -73,13 +75,13 @@
                 height: 100%;
                 .swiper-banner {
                     .swiper-slide:nth-child(1) {
-                        background-image: url('../../../../Project_Review/Resources/Img/Banner/1.jpg');
+                        background-image: url('../img/Banner/2.jpg');
                     }
                     .swiper-slide:nth-child(2) {
-                        background-image: url('../../../../Project_Review/Resources/Img/Banner/2.jpg');
+                        background-image: url('../img/Banner/2.jpg');
                     }
                     .swiper-slide:nth-child(3) {
-                        background-image: url('../../../../Project_Review/Resources/Img/Banner/3.jpg');
+                        background-image: url('../img/Banner/2.jpg');
                     }
                     .swiper-slide {
                         background-size: cover;

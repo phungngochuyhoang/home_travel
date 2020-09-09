@@ -23,11 +23,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  height: auto;
-}
-
-.header .container-header .row:nth-child(1) {
+.header-home .container-header .row:nth-child(1) {
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -35,8 +31,12 @@ body {
   background-color: #ffffff;
 }
 
-.header .container-header .row:nth-child(2) {
+.header-home .container-header .row:nth-child(2) {
   margin-top: 80px;
+}
+
+.header {
+  height: auto;
 }
 
 .header .container-header .row .col-xl-3,
@@ -100,15 +100,15 @@ body {
 }
 
 .header .container-header .row .banner .swiper-container .swiper-banner .swiper-slide:nth-child(1) {
-  background-image: url("../../../../Project_Review/Resources/Img/Banner/1.jpg");
+  background-image: url("../img/Banner/2.jpg");
 }
 
 .header .container-header .row .banner .swiper-container .swiper-banner .swiper-slide:nth-child(2) {
-  background-image: url("../../../../Project_Review/Resources/Img/Banner/2.jpg");
+  background-image: url("../img/Banner/2.jpg");
 }
 
 .header .container-header .row .banner .swiper-container .swiper-banner .swiper-slide:nth-child(3) {
-  background-image: url("../../../../Project_Review/Resources/Img/Banner/3.jpg");
+  background-image: url("../img/Banner/2.jpg");
 }
 
 .header .container-header .row .banner .swiper-container .swiper-banner .swiper-slide {
@@ -487,5 +487,150 @@ body {
 .section.section-handbook .container .row .advertiment-box img {
   width: 100%;
   height: 100%;
+}
+
+.section.section-form-contact {
+  padding: 10px;
+}
+
+.section.section-form-contact .container .row .col-xl-12.title {
+  padding: 10px;
+}
+
+.section.section-form-contact .container .row .col-xl-12.title h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) {
+  padding: 10px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxImg {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxImg .img {
+  background-image: url("../../../../Project_Review/Resources/Img/Banner/2.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px 0 0 6px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm {
+  padding: 20px;
+  background: #fdfdf3;
+  border-radius: 0 6px 6px 0;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form {
+  height: auto;
+  width: 100%;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data {
+  border-bottom: 1px solid #c1c1c1;
+  margin: 15px 0;
+  position: relative;
+  height: 40px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name input[type='text'],
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number input[type='text'],
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email input[type='text'],
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data input[type='text'] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  background-color: transparent;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name label,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number label,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email label,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data label {
+  z-index: 1;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-shadow: .1px .1px 1px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name span,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number span,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email span,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data span {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #e61717;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name button,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number button,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email button,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data button {
+  background: #0456a3;
+  outline: none;
+  padding: 10px 28px;
+  color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  border: none;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name input:focus + label,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number input:focus + label,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email input:focus + label,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data input:focus + label {
+  top: -14px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+  opacity: 0;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-note {
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-note label {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-shadow: .1px .1px 1px;
+  padding-bottom: 6px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-note textarea {
+  border: 1px solid #c1c1c1;
+  width: 100%;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  background-color: transparent;
+  padding: 10px 0 0 10px;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data {
+  padding: 3px;
+  border: none;
+  top: 10px;
 }
 /*# sourceMappingURL=main.css.map */

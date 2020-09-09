@@ -1,0 +1,113 @@
+.section.section-form-contact {
+    padding: 10px;
+    .container .row {
+        .col-xl-12.title {
+            padding: 10px;
+            h2 {
+                text-align: center;
+                padding-bottom: 30px;
+            }
+        }
+    }
+    .container .row:nth-child(2) {
+        padding: 10px;
+        .boxImg {
+            height: auto;
+            width: 100%;
+            padding: 0;
+            .img {
+                background-image: url('../../../../Project_Review/Resources/Img/Banner/2.jpg');
+                background-size: cover;
+                height: 100%;
+                width: 100%;
+                border-radius: 6px 0 0 6px;
+            }
+        }
+        .boxForm {
+            padding: 20px;
+            background: #fdfdf3;
+            border-radius: 0 6px 6px 0;
+            form {
+                height: auto;
+                width: 100%;
+                .first-last-name,
+                .phone-number,
+                .my-email,
+                .send-data {
+                    border-bottom: 1px solid $color-border;
+                    margin: 15px 0;
+                    position: relative;
+                    height: 40px;
+                    input[type='text'] {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        outline: none;
+                        border: none;
+                        text-indent: 10px;
+                        font-size: 14px;
+                        letter-spacing: 1.2px;
+                        background-color: transparent;
+                    }
+                    label {
+                        z-index: 1;
+                        position: absolute;
+                        top: 16px;
+                        left: 5px;
+                        font-size: 14px;
+                        text-transform: capitalize;
+                        text-shadow: .1px .1px 1px;
+                    }
+                    span {
+                        position: absolute;
+                        top: 15px;
+                        right: 15px;
+                        color: rgb(230, 23, 23);
+                    }
+                    button {
+                        background: #0456a3;
+                        outline: none;
+                        padding: 10px 28px;
+                        color: $color-text-white;
+                        border-radius: 5px;
+                        position: absolute;
+                        right: 0;
+                        border: none;
+                    }
+                    input:focus + label {
+                        top: -14px;
+                        transition: 1.2s;
+                        opacity: 0;
+                    }
+                }
+                .my-note {
+                    height: auto;
+                    position: relative;
+                    top: 10px;
+                    label {
+                        font-size: 14px;
+                        text-transform: capitalize;
+                        text-shadow: .1px .1px 1px;
+                        padding-bottom: 6px;
+                    }
+                    textarea {
+                        border: 1px solid $color-border;
+                        width: 100%;
+                        resize: none;
+                        outline: none;
+                        font-size: 14px;
+                        letter-spacing: 1.2px;
+                        background-color: transparent;
+                        padding: 10px 0 0 10px;
+                    }
+                }
+                .send-data {
+                    padding: 3px;
+                    border: none;
+                    top: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" type="image/png" href="./Resources/Img/Logo/icon-travel.png">
+    <link rel="stylesheet" href="./Vendors/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Vendors/Css/reset.css">
+    <link rel="stylesheet" href="./Resources/Css/main.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header header-contact">
+        <div class="container-fluid container-header">       
+            <div class="row">
+                 <div class="col-md-3 col-lg-3 col-xl-3 logo">
+                     <div class="logo logo-box">
+                         <a href="#"><div class="img"></div></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 nav">
+                     <ul class="nav nav-box">
+                         <li><a href="#"> Bài viết </a></li>
+                         <li><a href="#"> Cẩm nang </a></li>
+                         <li><a href="#"> Liên hệ </a></li>
+                         <li><a href="#"> Hỗ trợ </a></li>
+                     </ul>
+                     <ul class="nav nav-login">
+                        <li> <i class="fa fa-user-circle icon-login"></i></li>
+                     </ul>
+                 </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+
+    <!-- Form contact -->
+    <section class="section section-form-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 title">
+                    <h2> Form liên hệ </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-xl-6 boxImg">
+                    <div class="img"></div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 boxForm">
+                    <form>
+                        <div class="first-last-name">
+                            <input type="text" name="">
+                            <label> Họ và tên </label>
+                            <span class="err"><i class="fa fa-exclamation-circle"></i> Họ tên không đúng </span>
+                        </div>
+                        <div class="phone-number">
+                            <input type="text" name="">
+                            <label> Số điện thoại </label>
+                            <span class="err"><i class="fa fa-exclamation-circle"></i> Số điện thoại không đúng </span>
+                        </div>
+                        <div class="my-email">
+                            <input type="text" name="">
+                            <label> Email </label>
+                            <span class="err"><i class="fa fa-exclamation-circle"></i> Email không đúng </span>
+                        </div>
+                        <div class="my-note">
+                            <label> Ghi chú </label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="send-data">
+                            <button type="submit" name=""> Gửi </button>
+                        </div>
+                    </form>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- End Form contact -->
+
+
+    <script src="../Project_Review/Vendors/Js/jquery-3.4.1.min.js"></script>
+   <script src="../Project_Review/Vendors/Js/bootstrap.min.js"></script>
+   <script src="../Project_Review/Resources/Js/index.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script>
+       var err = Array.from(document.querySelectorAll('.err'));
+       
+   </script>    
+</body>
+</html>
