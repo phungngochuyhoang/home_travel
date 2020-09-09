@@ -51,7 +51,7 @@ body {
 }
 
 .header .container-header .row .logo-box .img {
-  background-image: url("../../../../Project_Review/Resources/Img/Logo/lg.png");
+  background-image: url("../Img/Logo/lg.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -225,7 +225,7 @@ body {
 }
 
 .section.section-place .container .row .pm-box .header a .img {
-  background: url("../../../../Project_Review/Resources/Img/Banner/1.jpg");
+  background: url("../Img/Banner/1.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -284,7 +284,7 @@ body {
 .section.section-place .container .row .pm-child__box .body .body-img {
   width: 18%;
   height: 100%;
-  background-image: url("../../../../Project_Review/Resources/Img/Banner/1.jpg");
+  background-image: url("../Resources/Img/Banner/1.jpg");
   background-size: cover;
   background-position-y: center;
   border-radius: 4px;
@@ -513,7 +513,7 @@ body {
 }
 
 .section.section-form-contact .container .row:nth-child(2) .boxImg .img {
-  background-image: url("../../../../Project_Review/Resources/Img/Banner/2.jpg");
+  background-image: url("../Img/Banner/2.jpg");
   background-size: cover;
   height: 100%;
   width: 100%;
