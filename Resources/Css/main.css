@@ -284,7 +284,7 @@ body {
 .section.section-place .container .row .pm-child__box .body .body-img {
   width: 18%;
   height: 100%;
-  background-image: url("../Resources/Img/Banner/1.jpg");
+  background-image: url("../Img/Banner/1.jpg");
   background-size: cover;
   background-position-y: center;
   border-radius: 4px;
