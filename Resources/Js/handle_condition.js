@@ -30,11 +30,14 @@ function handleName() {
         }
         return countFalse, countNull;
     }, '');
-
-    if(countFalse - countNull > 0) {
-       err[0].innerHTML = '<i class="fa fa-exclamation-circle icon-err"></i> Họ tên không đúng';
-    }else{
-        err[0].innerHTML = '<i class="fa fa-check-circle icon-check-ok"></i>';
+    if(inputName.length > 0) {
+        if(countFalse - countNull > 0) {
+            err[0].innerHTML = '<i class="fa fa-exclamation-circle icon-err"></i> Họ tên không đúng';
+         }else{
+             err[0].innerHTML = '<i class="fa fa-check-circle icon-check-ok"></i>';
+         }
+    }else {
+        err[0].innerHTML = '<i class="fa fa-exclamation-circle icon-err"></i> Họ tên không đúng';
     }
 }
 
