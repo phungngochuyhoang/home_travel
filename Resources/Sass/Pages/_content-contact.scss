@@ -49,11 +49,12 @@
                         font-size: 14px;
                         letter-spacing: 1.2px;
                         background-color: transparent;
+                        padding-top: 15px;
                     }
                     label {
                         z-index: 1;
                         position: absolute;
-                        top: 16px;
+                        top: -5px;
                         left: 5px;
                         font-size: 14px;
                         text-transform: capitalize;
@@ -63,7 +64,14 @@
                         position: absolute;
                         top: 15px;
                         right: 15px;
-                        color: rgb(230, 23, 23);
+                        font-size: 14px;
+                        color: rgb(218, 17, 17);
+                        .icon-check-ok {
+                            color: rgb(8, 168, 43);
+                        }
+                        .icon-err {
+                            color: rgb(218, 17, 17);
+                        }
                     }
                     button {
                         background: #0456a3;
@@ -77,7 +85,7 @@
                     }
                     input:focus + label {
                         top: -14px;
-                        transition: 1.2s;
+                        transition: 1s;
                         opacity: 0;
                     }
                 }

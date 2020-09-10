@@ -24,9 +24,9 @@
                  </div>
                  <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 nav">
                      <ul class="nav nav-box">
+                        <li><a href="./index.html"> Trang chủ </a></li>
                          <li><a href="#"> Bài viết </a></li>
                          <li><a href="#"> Cẩm nang </a></li>
-                         <li><a href="#"> Liên hệ </a></li>
                          <li><a href="#"> Hỗ trợ </a></li>
                      </ul>
                      <ul class="nav nav-login">
@@ -52,28 +52,28 @@
                     <div class="img"></div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 boxForm">
-                    <form>
+                    <form action="">
                         <div class="first-last-name">
-                            <input type="text" name="">
+                            <input type="text" name="name" id="name">
                             <label> Họ và tên </label>
-                            <span class="err"><i class="fa fa-exclamation-circle"></i> Họ tên không đúng </span>
+                            <span class="err"></span>
                         </div>
                         <div class="phone-number">
-                            <input type="text" name="">
+                            <input type="text" name="phone" id="phone">
                             <label> Số điện thoại </label>
-                            <span class="err"><i class="fa fa-exclamation-circle"></i> Số điện thoại không đúng </span>
+                            <span class="err"></span>
                         </div>
                         <div class="my-email">
-                            <input type="text" name="">
+                            <input type="text" name="email" id="email">
                             <label> Email </label>
-                            <span class="err"><i class="fa fa-exclamation-circle"></i> Email không đúng </span>
+                            <span class="err"></span>
                         </div>
                         <div class="my-note">
                             <label> Ghi chú </label>
                             <textarea name="" id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="send-data">
-                            <button type="submit" name=""> Gửi </button>
+                            <button type="submit" name="" id="submit"> Gửi </button>
                         </div>
                     </form>
                 </div>
@@ -85,12 +85,8 @@
 
 
     <script src="../Project_Review/Vendors/Js/jquery-3.4.1.min.js"></script>
-   <script src="../Project_Review/Vendors/Js/bootstrap.min.js"></script>
-   <script src="../Project_Review/Resources/Js/index.js"></script>
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-   <script>
-       var err = Array.from(document.querySelectorAll('.err'));
-       
-   </script>    
+    <script src="../Project_Review/Vendors/Js/bootstrap.min.js"></script>
+    <script src="../Project_Review/Resources/Js/handle_condition.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
 </body>
 </html>

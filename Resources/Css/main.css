@@ -555,6 +555,7 @@ body {
   font-size: 14px;
   letter-spacing: 1.2px;
   background-color: transparent;
+  padding-top: 15px;
 }
 
 .section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name label,
@@ -563,7 +564,7 @@ body {
 .section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data label {
   z-index: 1;
   position: absolute;
-  top: 16px;
+  top: -5px;
   left: 5px;
   font-size: 14px;
   text-transform: capitalize;
@@ -577,7 +578,22 @@ body {
   position: absolute;
   top: 15px;
   right: 15px;
-  color: #e61717;
+  font-size: 14px;
+  color: #da1111;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name span .icon-check-ok,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number span .icon-check-ok,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email span .icon-check-ok,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data span .icon-check-ok {
+  color: #08a82b;
+}
+
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name span .icon-err,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .phone-number span .icon-err,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email span .icon-err,
+.section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data span .icon-err {
+  color: #da1111;
 }
 
 .section.section-form-contact .container .row:nth-child(2) .boxForm form .first-last-name button,
@@ -599,8 +615,8 @@ body {
 .section.section-form-contact .container .row:nth-child(2) .boxForm form .my-email input:focus + label,
 .section.section-form-contact .container .row:nth-child(2) .boxForm form .send-data input:focus + label {
   top: -14px;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
+  -webkit-transition: 1s;
+  transition: 1s;
   opacity: 0;
 }
 

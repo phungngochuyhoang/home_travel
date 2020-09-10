@@ -1,6 +1,6 @@
+// slide show
 var index = 0;
 slide();
-// slide show
 function slide() {
     var slides = Array.from(document.querySelectorAll('.swiper-slide'));
     var i;
@@ -14,4 +14,3 @@ function slide() {
     slides[index-1].style.display = "block";
     setTimeout(slide, 4000);
 } 
-
