@@ -1,0 +1,19 @@
+.box-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  display: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.box-top a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  background: red;
+  opacity: .8;
+}
+/*# sourceMappingURL=back_top.css.map */

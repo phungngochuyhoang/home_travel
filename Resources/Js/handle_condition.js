@@ -30,7 +30,7 @@ function handleName() {
         }
         return countFalse, countNull;
     }, '');
-    if(inputName.length > 0) {
+    if(inputName.value.length > 0) {
         if(countFalse - countNull > 0) {
             err[0].innerHTML = '<i class="fa fa-exclamation-circle icon-err"></i> Họ tên không đúng';
          }else{
